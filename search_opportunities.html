@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <!-- <link rel="icon" type="image/png" href="../assets/img/favicon.ico"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--     Fonts and icons     -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <!-- CSS Files -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/style.css?v=2.0.0 " rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link rel="stylesheet" href="assets/css/table.css">
+  <link href="assets/css/media.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar" data-image="">
+      <div class="sidebar-wrapper">
+        <div class="main_logo_b">
+          <a href="index.html">
+            <img src="assets/img/mainlogo.png" alt="dashboard" class="img-fluid">
+          </a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">
+              <i class="fa fa-pie-chart myicon_p" aria-hidden="true"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="quick_quote.html">
+              <i class="fa fa-qrcode myicon_p" aria-hidden="true"></i>
+              <p>Quick Quote</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="quotes.html">
+              <i class="fa fa-lightbulb-o myicon_p" aria-hidden="true"></i>
+              <p>All Quotes</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="submit_customer.html">
+              <i class="fa fa-users myicon_p" aria-hidden="true"></i>
+              <p>Submit Customer <br>Opportunity</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="opportunitities.html">
+              <i class="fa fa-user myicon_p" aria-hidden="true"></i>
+              <p>All Opportunities</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">
+              <i class="fa fa-book myicon_p" aria-hidden="true"></i>
+              <p>Articles</p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="search_opportunities.html">
+              <i class="fa fa-search myicon_p" aria-hidden="true"></i>
+              <p>Search Opportunities</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="company_details.html">
+             <i class="fa fa-id-badge myicon_p" aria-hidden="true"></i>
+             <p>Pre-Approval</p>
+           </a>
+         </li>
+       </ul>
+     </div>
+   </div>
+   <div class="main-panel ">
+    <nav class="navbar navbar-expand-lg" id="navigation1">
+      <div class="container-fluid">
+        <a class="navbar-brand n_brand" href="index.html"><img src="assets/img/mainlogo.png" alt="dashboard" class="img-fluid"></a>
+        <button  class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation" aria-expanded="false"  aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar burger-lines"></span>
+          <span class="navbar-toggler-bar burger-lines"></span>
+          <span class="navbar-toggler-bar burger-lines"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navigation">
+          <div class="left_nav_section">
+            <ul class="nav navbar-nav">
+              <li class="nav-item mx-auto">
+                <a class="nav-link sm_left" href="#">Overview</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="dropdown show nav-item ">
+              <a href="#" class="dropdown-toggle nav-link " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bell " aria-hidden="true"></i>
+                <span class="notification">5</span>
+                <span class="d-lg-none">Notification</span>
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Notification 1</a></li>
+                <li><a class="dropdown-item" href="#">Notification 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown last_menu text-right">
+              <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="no-icon">Jones Ferdinand &nbsp;&nbsp;<img src="assets/img/account.png" alt="account" class="img-fluid "></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="main_content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="#" >
+              <div class="form-group search_opportunity">
+                <label class="col-lg-12">Search All Opportunities</label>
+              </div>
+              <div class="searchform">
+                <div class="form-group row">
+                <label for="webref" class="col-lg-3 col-form-label">WESTWON REFERANCE</label>
+                  <div class="col-lg-9">
+                    <input type="number" class="form-control" id="webref">
+                  </div>
+              </div>
+              <div class="form-group row">
+                <label for="ourcustomer" class="col-lg-3 col-form-label">CUSTOMER</label>
+                  <div class="col-lg-9">
+                    <input type="text" class="form-control" id="ourcustomer">
+                  </div>
+              </div>
+              <div class="form-group row">
+                <label for="agreementdate" class="col-lg-3 col-form-label">AGREEMENT START DATE</label>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                  <select  class="form-control">
+                    <option selected>MONTH</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Agust</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>November</option>
+                  </select>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                  <select  class="form-control ">
+                    <option selected="">YEAR</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option> 2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                  </select>
+                </div>
+                <div class="col-lg-1 col-md-12 text-center pt-1">
+                  <label>OR</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                 <select  class="form-control">
+                    <option selected>MONTH</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Agust</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>November</option>
+                 </select>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                <select  class="form-control ">
+                  <option selected="">YEAR</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+                  <option>2014</option>
+                  <option> 2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                </select>
+               </div>
+              </div>
+              <div class="form-group row">
+                <label for="agreementdate" class="col-lg-3 col-form-label">AGREEMENT END DATE</label>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                  <select  class="form-control">
+                    <option selected>MONTH</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Agust</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>November</option>
+                  </select>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                  <select  class="form-control ">
+                    <option selected="">YEAR</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option> 2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                  </select>
+                </div>
+                <div class="col-lg-1 text-center pt-1">
+                  <label>OR</label>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                 <select  class="form-control">
+                    <option selected>MONTH</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Agust</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>November</option>
+                 </select>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+                <select  class="form-control ">
+                  <option selected="">YEAR</option>
+                  <option>2010</option>
+                  <option>2011</option>
+                  <option>2012</option>
+                  <option>2013</option>
+                  <option>2014</option>
+                  <option> 2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                </select>
+               </div>
+              </div>
+              <div class="form-group row">
+                <label for="salesperson" class="col-lg-3 col-form-label">SALES PERSON</label>
+                  <div class="col-lg-9">
+                    <input type="number" class="form-control" id="salesperson">
+                  </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-lg-3 col-form-label">CAPITAL VALUE</label>
+                <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+                  <input type="number" class="form-control" placeholder="NUMBERS ONLY">
+                </div>
+                
+                <div class="col-lg-1 col-md-2 col-sm-2 text-center pt-1">
+                  <label>-</label>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+                  <input type="number" class="form-control" placeholder="NUMBERS ONLY">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-lg-3 col-form-label">RENTAL</label>
+                <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+                  <input type="number" class="form-control" placeholder="NUMBERS ONLY">
+                </div>
+                
+                <div class="col-lg-1 col-md-2 col-sm-2 text-center pt-1">
+                  <label>-</label>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-5 col-12">
+                  <input type="number" class="form-control" placeholder="NUMBERS ONLY">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="rentalperi" class="col-lg-3 col-form-label">RENTAL PERIOD</label>
+                  <div class="col-lg-9">
+                    <input type="number" class="form-control" id="rentalperi">
+                  </div>
+              </div>
+              <div class="form-group row">
+                <label for="rentalfreq" class="col-lg-3 col-form-label">RENTAL FREQUENCY</label>
+                  <div class="col-lg-9">
+                    <input type="number" class="form-control" id="rentalfreq">
+                  </div>
+              </div>
+              <div class="form-group row">
+                <label for="status1" class="col-lg-3 col-form-label">STATUS</label>
+                <div class="col-lg-9">
+                  <select  class="form-control" id="status1">
+                    <option selected>All</option>
+                    <option>customer</option>
+                    <option>customer</option>
+                    <option>seller</option>
+                    <option>seller</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="status2" class="col-lg-3 col-form-label">STATUS</label>
+                <div class="col-lg-9">
+                  <select  class="form-control" id="status2">
+                    <option selected>All</option>
+                    <option>customer</option>
+                    <option>customer</option>
+                    <option>seller</option>
+                    <option>seller</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <input type="submit" value="Continue" class="form-control" id="submitbtn">
+              </div>
+              </div>
+              
+           </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/core/popper.min.js" ></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+
+<!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+<script src="assets/js/script.js?v=2.0.0 "></script>
+
+</body>
+</html>

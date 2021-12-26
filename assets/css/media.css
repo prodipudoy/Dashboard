@@ -1,0 +1,278 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+   .sidebar,
+   body>.navbar-collapse {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 260px;
+    display: block;
+    z-index: 1;
+    color: #fff;
+    font-weight: 200;
+    background-size: cover;
+    background-position: center center;
+    }
+
+    .sidebar .sidebar-wrapper, body>.navbar-collapse .sidebar-wrapper {
+        position: relative;
+        max-height: calc(100vh - 75px);
+        min-height: 100%;
+        overflow: auto;
+        width: 260px;
+        z-index: 4;
+    }
+    .sidebar .sidebar-background,
+    body>.navbar-collapse .sidebar-background {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 260px;
+        display: block;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /*siderbar*/
+    .sm_left {
+
+       text-align: left !important; 
+    }
+    .nav-mobile-menu .nav-item .nav-link .no-icon {
+       padding-left: 0px; 
+    }
+    /*main div section start*/
+    .main_div{
+        text-align: center;
+    }
+    /*main div section end*/
+    .navbar {
+        min-height: 80px;
+        max-height: 81px;
+    }
+    .navbar .navbar-brand {
+        margin: 0px;
+        
+    }
+    .nav-mobile-menu{
+        display: block !important;
+    }
+    /*============================
+        all quote page
+    ============================*/
+
+    .quotetable tbody tr{
+        background-color: white;
+    }
+    .quotetable tbody:hover tr{
+        background-color: white;
+    }
+    .quotetable tbody td{
+        background-color: rgba(94, 93, 82, 0.1);
+    }
+    /*========================*/
+            /*submit page*/
+    /*==========================*/
+    .main_details {
+        font-size: 15px;
+
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     .sidebar,
+     body>.navbar-collapse {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 260px;
+        display: block;
+        z-index: 1;
+        color: #fff;
+        font-weight: 200;
+        background-size: cover;
+        background-position: center center;
+    }
+    .sidebar .sidebar-wrapper, body>.navbar-collapse .sidebar-wrapper {
+        position: relative;
+        max-height: calc(100vh - 75px);
+        min-height: 100%;
+        overflow: auto;
+        width: 260px;
+        z-index: 4;
+        padding-bottom: 100px;
+    }
+    .sidebar .sidebar-background,
+    body>.navbar-collapse .sidebar-background {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 260px;
+        display: block;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center center;
+    }
+    .sidebar .nav,
+    body>.navbar-collapse .nav {
+     margin-top: 0px; 
+
+    }
+    .sm_left {
+
+     text-align: left !important; 
+    }
+    .nav-mobile-menu .nav-item .nav-link .no-icon {
+     padding-left: 0px; 
+    }
+    /*main div section start*/
+    .main_div{
+        text-align: center;
+    }
+    /*main div section end*/
+    .content_box_diff {
+        margin-top: 28px;
+    }
+    .diff_img img {
+        width: 54%;
+        margin-top: -20px;
+    }
+    .navbar {
+        min-height: 80px;
+        max-height: 81px;
+    }
+    .navbar .navbar-brand {
+        margin: 0px;
+
+    }
+    .nav-mobile-menu{
+        display: block !important;
+    }
+    /*============================
+            all quote page
+    ============================*/
+    .quotetable tbody tr{
+        background-color: white;
+    }
+    .quotetable tbody:hover tr{
+        background-color: white;
+    }
+    .quotetable tbody td{
+        background-color: rgba(94, 93, 82, 0.1);
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .sidebar,
+    body>.navbar-collapse {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 260px;
+        display: block;
+        z-index: 1;
+        color: #fff;
+        font-weight: 200;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .sidebar .sidebar-wrapper, body>.navbar-collapse .sidebar-wrapper {
+        position: relative;
+        max-height: calc(100vh - 75px);
+        min-height: 100%;
+        overflow: auto;
+        width: 260px;
+        z-index: 4;
+        padding-bottom: 100px;
+    }
+    .sidebar .sidebar-background,
+    body>.navbar-collapse .sidebar-background {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 260px;
+        display: block;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center center;
+    }
+    .sm_left {
+
+       text-align: left !important; 
+   }
+   .nav-mobile-menu .nav-item .nav-link .no-icon {
+        padding-left: 0px; 
+   }
+   .first_logo .n_brand{
+        margin-bottom: -20px;
+    }
+    .navbar {
+        min-height: 80px;
+        max-height: 81px;
+    }
+    .navbar .navbar-brand {
+        margin: 0px;
+    }
+    .nav-mobile-menu{
+        display: block !important;
+    }
+    /*============================
+            all quote page
+    ============================*/
+    .quotetable tbody tr{
+        background-color: white;
+    }
+    .quotetable tbody:hover tr{
+        background-color: white;
+    }
+    .quotetable tbody td{
+        background-color: rgba(94, 93, 82, 0.1);
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*dashboard page*/
+    .top_header{
+        font-size: 60px;
+    }
+    /*administrative*/
+    .administration a {
+        padding: 10px;
+    }
+    .m_sizing{
+        padding: 7px;
+    }
+    .quotes h2, .administration h2 {
+        font-size: 14px;
+
+    }
+    /*news section*/
+    .news_h, .account_h {
+        font-size: 16px;
+    }
+    .news_update, .account_details {
+        padding: 30px 10px;
+    }
+    .nav-mobile-menu{
+        display: none !important;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .nav-mobile-menu{
+        display: none !important;
+    }
+}
